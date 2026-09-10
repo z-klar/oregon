@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("KSW Software")]
 [assembly: AssemblyProduct("OREGON")]
-[assembly: AssemblyCopyright("Copyright ©  2013 - 2018")]
+[assembly: AssemblyCopyright("Copyright ©  2013 - 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

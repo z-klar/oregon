@@ -298,7 +298,7 @@
             this.chkFilterTypesMain.ForeColor = System.Drawing.Color.Lime;
             this.chkFilterTypesMain.Location = new System.Drawing.Point(519, 27);
             this.chkFilterTypesMain.Name = "chkFilterTypesMain";
-            this.chkFilterTypesMain.Size = new System.Drawing.Size(110, 20);
+            this.chkFilterTypesMain.Size = new System.Drawing.Size(109, 20);
             this.chkFilterTypesMain.TabIndex = 0;
             this.chkFilterTypesMain.Text = "Filter Types";
             this.chkFilterTypesMain.UseVisualStyleBackColor = false;
@@ -324,7 +324,7 @@
             this.rbTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.rbTime.Location = new System.Drawing.Point(122, 19);
             this.rbTime.Name = "rbTime";
-            this.rbTime.Size = new System.Drawing.Size(53, 20);
+            this.rbTime.Size = new System.Drawing.Size(52, 20);
             this.rbTime.TabIndex = 1;
             this.rbTime.Text = "Cas";
             this.rbTime.UseVisualStyleBackColor = true;
@@ -337,7 +337,7 @@
             this.rbLength.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.rbLength.Location = new System.Drawing.Point(9, 19);
             this.rbLength.Name = "rbLength";
-            this.rbLength.Size = new System.Drawing.Size(103, 20);
+            this.rbLength.Size = new System.Drawing.Size(102, 20);
             this.rbLength.TabIndex = 0;
             this.rbLength.TabStop = true;
             this.rbLength.Text = "Vzdalenost";
@@ -758,7 +758,7 @@
             this.label14.ForeColor = System.Drawing.Color.Lime;
             this.label14.Location = new System.Drawing.Point(15, 14);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(40, 16);
+            this.label14.Size = new System.Drawing.Size(39, 16);
             this.label14.TabIndex = 3;
             this.label14.Text = "Year:";
             // 
@@ -834,7 +834,7 @@
             this.label17.ForeColor = System.Drawing.Color.Lime;
             this.label17.Location = new System.Drawing.Point(14, 16);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(40, 16);
+            this.label17.Size = new System.Drawing.Size(39, 16);
             this.label17.TabIndex = 8;
             this.label17.Text = "Year:";
             // 
@@ -1406,7 +1406,7 @@
             this.label13.ForeColor = System.Drawing.Color.Lime;
             this.label13.Location = new System.Drawing.Point(71, 35);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(45, 16);
+            this.label13.Size = new System.Drawing.Size(44, 16);
             this.label13.TabIndex = 21;
             this.label13.Text = "Date:";
             // 
@@ -1418,7 +1418,7 @@
             this.label12.ForeColor = System.Drawing.Color.Lime;
             this.label12.Location = new System.Drawing.Point(58, 70);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(62, 16);
+            this.label12.Size = new System.Drawing.Size(61, 16);
             this.label12.TabIndex = 20;
             this.label12.Text = "Activity:";
             // 
@@ -1497,7 +1497,7 @@
             this.label11.ForeColor = System.Drawing.Color.Lime;
             this.label11.Location = new System.Drawing.Point(33, 184);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(91, 16);
+            this.label11.Size = new System.Drawing.Size(90, 16);
             this.label11.TabIndex = 13;
             this.label11.Text = "Description:";
             // 
@@ -1509,7 +1509,7 @@
             this.label10.ForeColor = System.Drawing.Color.Lime;
             this.label10.Location = new System.Drawing.Point(339, 148);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 16);
+            this.label10.Size = new System.Drawing.Size(66, 16);
             this.label10.TabIndex = 12;
             this.label10.Text = "Sum UP:";
             // 
@@ -1521,7 +1521,7 @@
             this.label9.ForeColor = System.Drawing.Color.Lime;
             this.label9.Location = new System.Drawing.Point(345, 111);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 16);
+            this.label9.Size = new System.Drawing.Size(59, 16);
             this.label9.TabIndex = 11;
             this.label9.Text = "Weight:";
             // 
@@ -1533,7 +1533,7 @@
             this.label8.ForeColor = System.Drawing.Color.Lime;
             this.label8.Location = new System.Drawing.Point(317, 70);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 16);
+            this.label8.Size = new System.Drawing.Size(89, 16);
             this.label8.TabIndex = 10;
             this.label8.Text = "Max.Speed:";
             // 
@@ -1545,7 +1545,7 @@
             this.label7.ForeColor = System.Drawing.Color.Lime;
             this.label7.Location = new System.Drawing.Point(318, 35);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 16);
+            this.label7.Size = new System.Drawing.Size(88, 16);
             this.label7.TabIndex = 9;
             this.label7.Text = "Avg.Speed:";
             // 
@@ -1557,7 +1557,7 @@
             this.label6.ForeColor = System.Drawing.Color.Lime;
             this.label6.Location = new System.Drawing.Point(16, 145);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 16);
+            this.label6.Size = new System.Drawing.Size(106, 16);
             this.label6.TabIndex = 8;
             this.label6.Text = "Distance [km]:";
             // 
@@ -1580,7 +1580,7 @@
             this.label5.ForeColor = System.Drawing.Color.Lime;
             this.label5.Location = new System.Drawing.Point(12, 108);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 16);
+            this.label5.Size = new System.Drawing.Size(107, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Duration [Min]:";
             // 
@@ -1620,7 +1620,7 @@
             this.chkLogSql.ForeColor = System.Drawing.Color.Lime;
             this.chkLogSql.Location = new System.Drawing.Point(317, 12);
             this.chkLogSql.Name = "chkLogSql";
-            this.chkLogSql.Size = new System.Drawing.Size(144, 20);
+            this.chkLogSql.Size = new System.Drawing.Size(143, 20);
             this.chkLogSql.TabIndex = 8;
             this.chkLogSql.Text = "Log SQL Queries";
             this.chkLogSql.UseVisualStyleBackColor = false;
@@ -1679,7 +1679,7 @@
             this.label4.ForeColor = System.Drawing.Color.Lime;
             this.label4.Location = new System.Drawing.Point(36, 96);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 16);
+            this.label4.Size = new System.Drawing.Size(46, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "PWD:";
             // 
@@ -1691,7 +1691,7 @@
             this.label3.ForeColor = System.Drawing.Color.Lime;
             this.label3.Location = new System.Drawing.Point(39, 68);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 16);
+            this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "User:";
             // 
@@ -1703,7 +1703,7 @@
             this.label2.ForeColor = System.Drawing.Color.Lime;
             this.label2.Location = new System.Drawing.Point(8, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 16);
+            this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Database:";
             // 
@@ -1715,7 +1715,7 @@
             this.label1.ForeColor = System.Drawing.Color.Lime;
             this.label1.Location = new System.Drawing.Point(28, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 16);
+            this.label1.Size = new System.Drawing.Size(57, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Server:";
             // 
