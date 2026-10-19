@@ -172,6 +172,22 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.popupDgvDetailed = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.copyRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txInpMinAltitude = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txInpMaxAltitude = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txInpAvgPower = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.txInpMaxPower = new System.Windows.Forms.TextBox();
+            this.txInpAvgCadence = new System.Windows.Forms.TextBox();
+            this.txInpMaxCadence = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.txInpAvgHeartrate = new System.Windows.Forms.TextBox();
+            this.txInpMaxHeartrate = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
@@ -276,7 +292,7 @@
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.BackColor = System.Drawing.Color.Black;
+            this.splitContainer2.Panel1.BackColor = System.Drawing.Color.LightGray;
             this.splitContainer2.Panel1.Controls.Add(this.chkFilterTypesMain);
             this.splitContainer2.Panel1.Controls.Add(this.groupBox2);
             this.splitContainer2.Panel1.Controls.Add(this.btnUpdateMain);
@@ -293,9 +309,9 @@
             // chkFilterTypesMain
             // 
             this.chkFilterTypesMain.AutoSize = true;
-            this.chkFilterTypesMain.BackColor = System.Drawing.Color.Black;
+            this.chkFilterTypesMain.BackColor = System.Drawing.Color.LightGray;
             this.chkFilterTypesMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chkFilterTypesMain.ForeColor = System.Drawing.Color.Lime;
+            this.chkFilterTypesMain.ForeColor = System.Drawing.Color.Black;
             this.chkFilterTypesMain.Location = new System.Drawing.Point(519, 27);
             this.chkFilterTypesMain.Name = "chkFilterTypesMain";
             this.chkFilterTypesMain.Size = new System.Drawing.Size(109, 20);
@@ -306,11 +322,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Black;
+            this.groupBox2.BackColor = System.Drawing.Color.LightGray;
             this.groupBox2.Controls.Add(this.rbTime);
             this.groupBox2.Controls.Add(this.rbLength);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Lime;
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(322, 8);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(183, 48);
@@ -333,15 +349,17 @@
             // rbLength
             // 
             this.rbLength.AutoSize = true;
+            this.rbLength.BackColor = System.Drawing.Color.LightGray;
             this.rbLength.Checked = true;
             this.rbLength.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbLength.ForeColor = System.Drawing.Color.Black;
             this.rbLength.Location = new System.Drawing.Point(9, 19);
             this.rbLength.Name = "rbLength";
             this.rbLength.Size = new System.Drawing.Size(102, 20);
             this.rbLength.TabIndex = 0;
             this.rbLength.TabStop = true;
             this.rbLength.Text = "Vzdalenost";
-            this.rbLength.UseVisualStyleBackColor = true;
+            this.rbLength.UseVisualStyleBackColor = false;
             this.rbLength.CheckedChanged += new System.EventHandler(this.rbLength_CheckedChanged);
             // 
             // btnUpdateMain
@@ -360,9 +378,9 @@
             // lblSysClock
             // 
             this.lblSysClock.AutoSize = true;
-            this.lblSysClock.BackColor = System.Drawing.Color.Black;
+            this.lblSysClock.BackColor = System.Drawing.Color.LightGray;
             this.lblSysClock.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSysClock.ForeColor = System.Drawing.Color.Lime;
+            this.lblSysClock.ForeColor = System.Drawing.Color.Black;
             this.lblSysClock.Location = new System.Drawing.Point(15, 26);
             this.lblSysClock.Name = "lblSysClock";
             this.lblSysClock.Size = new System.Drawing.Size(179, 24);
@@ -1141,7 +1159,23 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.BackColor = System.Drawing.Color.LightGray;
+            this.tabPage3.Controls.Add(this.label26);
+            this.tabPage3.Controls.Add(this.label25);
+            this.tabPage3.Controls.Add(this.txInpMaxHeartrate);
+            this.tabPage3.Controls.Add(this.txInpAvgHeartrate);
+            this.tabPage3.Controls.Add(this.label24);
+            this.tabPage3.Controls.Add(this.label23);
+            this.tabPage3.Controls.Add(this.txInpMaxCadence);
+            this.tabPage3.Controls.Add(this.txInpAvgCadence);
+            this.tabPage3.Controls.Add(this.txInpMaxPower);
+            this.tabPage3.Controls.Add(this.label22);
+            this.tabPage3.Controls.Add(this.label21);
+            this.tabPage3.Controls.Add(this.txInpAvgPower);
+            this.tabPage3.Controls.Add(this.label20);
+            this.tabPage3.Controls.Add(this.txInpMaxAltitude);
+            this.tabPage3.Controls.Add(this.label19);
+            this.tabPage3.Controls.Add(this.txInpMinAltitude);
             this.tabPage3.Controls.Add(this.groupBox11);
             this.tabPage3.Controls.Add(this.btnImportGpxFile);
             this.tabPage3.Controls.Add(this.btnLocateGpxFile);
@@ -1254,9 +1288,9 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Black;
+            this.label18.BackColor = System.Drawing.Color.LightGray;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Lime;
+            this.label18.ForeColor = System.Drawing.Color.Black;
             this.label18.Location = new System.Drawing.Point(6, 9);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(237, 18);
@@ -1288,9 +1322,9 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Black;
+            this.label16.BackColor = System.Drawing.Color.LightGray;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Lime;
+            this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(599, 174);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(227, 18);
@@ -1341,9 +1375,9 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Black;
+            this.label15.BackColor = System.Drawing.Color.LightGray;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Lime;
+            this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(599, 37);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(224, 18);
@@ -1364,7 +1398,7 @@
             // btnInsert
             // 
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnInsert.Location = new System.Drawing.Point(126, 287);
+            this.btnInsert.Location = new System.Drawing.Point(126, 419);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(171, 40);
             this.btnInsert.TabIndex = 22;
@@ -1393,7 +1427,7 @@
             this.cbTypesInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.cbTypesInput.ForeColor = System.Drawing.Color.Lime;
             this.cbTypesInput.FormattingEnabled = true;
-            this.cbTypesInput.Location = new System.Drawing.Point(126, 67);
+            this.cbTypesInput.Location = new System.Drawing.Point(126, 66);
             this.cbTypesInput.Name = "cbTypesInput";
             this.cbTypesInput.Size = new System.Drawing.Size(157, 24);
             this.cbTypesInput.TabIndex = 6;
@@ -1401,9 +1435,9 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Black;
+            this.label13.BackColor = System.Drawing.Color.LightGray;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.ForeColor = System.Drawing.Color.Lime;
+            this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(71, 35);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(44, 16);
@@ -1413,9 +1447,9 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Black;
+            this.label12.BackColor = System.Drawing.Color.LightGray;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.ForeColor = System.Drawing.Color.Lime;
+            this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(58, 70);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(61, 16);
@@ -1428,10 +1462,10 @@
             this.txInpDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txInpDescription.ForeColor = System.Drawing.Color.Lime;
-            this.txInpDescription.Location = new System.Drawing.Point(126, 183);
+            this.txInpDescription.Location = new System.Drawing.Point(126, 315);
             this.txInpDescription.Multiline = true;
             this.txInpDescription.Name = "txInpDescription";
-            this.txInpDescription.Size = new System.Drawing.Size(441, 88);
+            this.txInpDescription.Size = new System.Drawing.Size(446, 88);
             this.txInpDescription.TabIndex = 19;
             // 
             // txInpSumup
@@ -1440,7 +1474,7 @@
             this.txInpSumup.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpSumup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txInpSumup.ForeColor = System.Drawing.Color.Lime;
-            this.txInpSumup.Location = new System.Drawing.Point(410, 145);
+            this.txInpSumup.Location = new System.Drawing.Point(415, 135);
             this.txInpSumup.Name = "txInpSumup";
             this.txInpSumup.Size = new System.Drawing.Size(157, 22);
             this.txInpSumup.TabIndex = 18;
@@ -1451,7 +1485,7 @@
             this.txInpWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txInpWeight.ForeColor = System.Drawing.Color.Lime;
-            this.txInpWeight.Location = new System.Drawing.Point(410, 108);
+            this.txInpWeight.Location = new System.Drawing.Point(415, 100);
             this.txInpWeight.Name = "txInpWeight";
             this.txInpWeight.Size = new System.Drawing.Size(157, 22);
             this.txInpWeight.TabIndex = 17;
@@ -1462,7 +1496,7 @@
             this.txInpMaxspeed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpMaxspeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txInpMaxspeed.ForeColor = System.Drawing.Color.Lime;
-            this.txInpMaxspeed.Location = new System.Drawing.Point(410, 67);
+            this.txInpMaxspeed.Location = new System.Drawing.Point(415, 65);
             this.txInpMaxspeed.Name = "txInpMaxspeed";
             this.txInpMaxspeed.Size = new System.Drawing.Size(157, 22);
             this.txInpMaxspeed.TabIndex = 16;
@@ -1473,7 +1507,7 @@
             this.txInpAvgspeed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpAvgspeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txInpAvgspeed.ForeColor = System.Drawing.Color.Lime;
-            this.txInpAvgspeed.Location = new System.Drawing.Point(410, 30);
+            this.txInpAvgspeed.Location = new System.Drawing.Point(415, 30);
             this.txInpAvgspeed.Name = "txInpAvgspeed";
             this.txInpAvgspeed.Size = new System.Drawing.Size(157, 22);
             this.txInpAvgspeed.TabIndex = 15;
@@ -1484,7 +1518,7 @@
             this.txInpDistance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txInpDistance.ForeColor = System.Drawing.Color.Lime;
-            this.txInpDistance.Location = new System.Drawing.Point(126, 142);
+            this.txInpDistance.Location = new System.Drawing.Point(126, 138);
             this.txInpDistance.Name = "txInpDistance";
             this.txInpDistance.Size = new System.Drawing.Size(157, 22);
             this.txInpDistance.TabIndex = 14;
@@ -1492,10 +1526,10 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Black;
+            this.label11.BackColor = System.Drawing.Color.LightGray;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label11.ForeColor = System.Drawing.Color.Lime;
-            this.label11.Location = new System.Drawing.Point(33, 184);
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(33, 316);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(90, 16);
             this.label11.TabIndex = 13;
@@ -1504,10 +1538,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Black;
+            this.label10.BackColor = System.Drawing.Color.LightGray;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label10.ForeColor = System.Drawing.Color.Lime;
-            this.label10.Location = new System.Drawing.Point(339, 148);
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(344, 140);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(66, 16);
             this.label10.TabIndex = 12;
@@ -1516,10 +1550,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Black;
+            this.label9.BackColor = System.Drawing.Color.LightGray;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label9.ForeColor = System.Drawing.Color.Lime;
-            this.label9.Location = new System.Drawing.Point(345, 111);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(350, 105);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(59, 16);
             this.label9.TabIndex = 11;
@@ -1528,10 +1562,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Black;
+            this.label8.BackColor = System.Drawing.Color.LightGray;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.ForeColor = System.Drawing.Color.Lime;
-            this.label8.Location = new System.Drawing.Point(317, 70);
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(322, 70);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(89, 16);
             this.label8.TabIndex = 10;
@@ -1540,10 +1574,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Black;
+            this.label7.BackColor = System.Drawing.Color.LightGray;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.ForeColor = System.Drawing.Color.Lime;
-            this.label7.Location = new System.Drawing.Point(318, 35);
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(323, 35);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(88, 16);
             this.label7.TabIndex = 9;
@@ -1552,10 +1586,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Black;
+            this.label6.BackColor = System.Drawing.Color.LightGray;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.ForeColor = System.Drawing.Color.Lime;
-            this.label6.Location = new System.Drawing.Point(16, 145);
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(16, 140);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(106, 16);
             this.label6.TabIndex = 8;
@@ -1567,7 +1601,7 @@
             this.txInpDuration.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txInpDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txInpDuration.ForeColor = System.Drawing.Color.Lime;
-            this.txInpDuration.Location = new System.Drawing.Point(126, 105);
+            this.txInpDuration.Location = new System.Drawing.Point(126, 103);
             this.txInpDuration.Name = "txInpDuration";
             this.txInpDuration.Size = new System.Drawing.Size(157, 22);
             this.txInpDuration.TabIndex = 7;
@@ -1575,10 +1609,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Black;
+            this.label5.BackColor = System.Drawing.Color.LightGray;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.ForeColor = System.Drawing.Color.Lime;
-            this.label5.Location = new System.Drawing.Point(12, 108);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(12, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 16);
             this.label5.TabIndex = 6;
@@ -1851,6 +1885,190 @@
             this.copyRecordToolStripMenuItem.Text = "&Copy Record";
             this.copyRecordToolStripMenuItem.Click += new System.EventHandler(this.copyRecordToolStripMenuItem_Click);
             // 
+            // txInpMinAltitude
+            // 
+            this.txInpMinAltitude.BackColor = System.Drawing.Color.Black;
+            this.txInpMinAltitude.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpMinAltitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpMinAltitude.ForeColor = System.Drawing.Color.Lime;
+            this.txInpMinAltitude.Location = new System.Drawing.Point(126, 173);
+            this.txInpMinAltitude.Name = "txInpMinAltitude";
+            this.txInpMinAltitude.Size = new System.Drawing.Size(157, 22);
+            this.txInpMinAltitude.TabIndex = 34;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.LightGray;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(3, 175);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(120, 16);
+            this.label19.TabIndex = 35;
+            this.label19.Text = "MIN Altitude [m]:";
+            // 
+            // txInpMaxAltitude
+            // 
+            this.txInpMaxAltitude.BackColor = System.Drawing.Color.Black;
+            this.txInpMaxAltitude.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpMaxAltitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpMaxAltitude.ForeColor = System.Drawing.Color.Lime;
+            this.txInpMaxAltitude.Location = new System.Drawing.Point(415, 170);
+            this.txInpMaxAltitude.Name = "txInpMaxAltitude";
+            this.txInpMaxAltitude.Size = new System.Drawing.Size(157, 22);
+            this.txInpMaxAltitude.TabIndex = 36;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.LightGray;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(287, 175);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(124, 16);
+            this.label20.TabIndex = 37;
+            this.label20.Text = "MAX Altitude [m]:";
+            // 
+            // txInpAvgPower
+            // 
+            this.txInpAvgPower.BackColor = System.Drawing.Color.Black;
+            this.txInpAvgPower.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpAvgPower.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpAvgPower.ForeColor = System.Drawing.Color.Lime;
+            this.txInpAvgPower.Location = new System.Drawing.Point(126, 208);
+            this.txInpAvgPower.Name = "txInpAvgPower";
+            this.txInpAvgPower.Size = new System.Drawing.Size(157, 22);
+            this.txInpAvgPower.TabIndex = 38;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.LightGray;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(6, 210);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(117, 16);
+            this.label21.TabIndex = 39;
+            this.label21.Text = "AVG Power [W]:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.LightGray;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(295, 210);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(117, 16);
+            this.label22.TabIndex = 40;
+            this.label22.Text = "MAX Power [W]:";
+            // 
+            // txInpMaxPower
+            // 
+            this.txInpMaxPower.BackColor = System.Drawing.Color.Black;
+            this.txInpMaxPower.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpMaxPower.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpMaxPower.ForeColor = System.Drawing.Color.Lime;
+            this.txInpMaxPower.Location = new System.Drawing.Point(415, 205);
+            this.txInpMaxPower.Name = "txInpMaxPower";
+            this.txInpMaxPower.Size = new System.Drawing.Size(157, 22);
+            this.txInpMaxPower.TabIndex = 41;
+            // 
+            // txInpAvgCadence
+            // 
+            this.txInpAvgCadence.BackColor = System.Drawing.Color.Black;
+            this.txInpAvgCadence.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpAvgCadence.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpAvgCadence.ForeColor = System.Drawing.Color.Lime;
+            this.txInpAvgCadence.Location = new System.Drawing.Point(126, 243);
+            this.txInpAvgCadence.Name = "txInpAvgCadence";
+            this.txInpAvgCadence.Size = new System.Drawing.Size(157, 22);
+            this.txInpAvgCadence.TabIndex = 42;
+            // 
+            // txInpMaxCadence
+            // 
+            this.txInpMaxCadence.BackColor = System.Drawing.Color.Black;
+            this.txInpMaxCadence.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpMaxCadence.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpMaxCadence.ForeColor = System.Drawing.Color.Lime;
+            this.txInpMaxCadence.Location = new System.Drawing.Point(415, 240);
+            this.txInpMaxCadence.Name = "txInpMaxCadence";
+            this.txInpMaxCadence.Size = new System.Drawing.Size(157, 22);
+            this.txInpMaxCadence.TabIndex = 43;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.LightGray;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(12, 245);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(108, 16);
+            this.label23.TabIndex = 44;
+            this.label23.Text = "AVG Cadence:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.LightGray;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label24.ForeColor = System.Drawing.Color.Black;
+            this.label24.Location = new System.Drawing.Point(300, 245);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(108, 16);
+            this.label24.TabIndex = 45;
+            this.label24.Text = "MAX Cadence:";
+            // 
+            // txInpAvgHeartrate
+            // 
+            this.txInpAvgHeartrate.BackColor = System.Drawing.Color.Black;
+            this.txInpAvgHeartrate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpAvgHeartrate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpAvgHeartrate.ForeColor = System.Drawing.Color.Lime;
+            this.txInpAvgHeartrate.Location = new System.Drawing.Point(126, 278);
+            this.txInpAvgHeartrate.Name = "txInpAvgHeartrate";
+            this.txInpAvgHeartrate.Size = new System.Drawing.Size(157, 22);
+            this.txInpAvgHeartrate.TabIndex = 46;
+            // 
+            // txInpMaxHeartrate
+            // 
+            this.txInpMaxHeartrate.BackColor = System.Drawing.Color.Black;
+            this.txInpMaxHeartrate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txInpMaxHeartrate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txInpMaxHeartrate.ForeColor = System.Drawing.Color.Lime;
+            this.txInpMaxHeartrate.Location = new System.Drawing.Point(415, 275);
+            this.txInpMaxHeartrate.Name = "txInpMaxHeartrate";
+            this.txInpMaxHeartrate.Size = new System.Drawing.Size(157, 22);
+            this.txInpMaxHeartrate.TabIndex = 47;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.LightGray;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(10, 280);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(111, 16);
+            this.label25.TabIndex = 48;
+            this.label25.Text = "AVG Heartrate:";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.LightGray;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.Location = new System.Drawing.Point(300, 280);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(111, 16);
+            this.label26.TabIndex = 49;
+            this.label26.Text = "MAX Heartrate:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2073,6 +2291,22 @@
         private System.Windows.Forms.SplitContainer splitContainer8;
         private System.Windows.Forms.Button btnUpdateSectionDef;
         private System.Windows.Forms.Button btnAddSectionDef;
+        private System.Windows.Forms.TextBox txInpMaxCadence;
+        private System.Windows.Forms.TextBox txInpAvgCadence;
+        private System.Windows.Forms.TextBox txInpMaxPower;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txInpAvgPower;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txInpMaxAltitude;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txInpMinAltitude;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox txInpMaxHeartrate;
+        private System.Windows.Forms.TextBox txInpAvgHeartrate;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
     }
 }
 

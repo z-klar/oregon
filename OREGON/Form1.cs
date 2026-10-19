@@ -277,8 +277,10 @@ namespace cz.zk.OREGON
         private void InsertNewRecord()
         {
             String sDescr, sCmd, sDuration, sDistance, sAvg, sMax, sWeight, sSumup;
+            String sMinAltitude, sMaxAltitude, sAvgPower, sMaxPower, sAvgCadence, sMaxCadence, sAvgHeartRate, sMaxHeartRate;
             int nTyp, nErr, noRec;
-            String[] Params = { "Duration", "Distance", "Avg Spedd", "Max Speed", "Weight", "SumUp" };
+            String[] Params = { "Duration", "Distance", "Avg Spedd", "Max Speed", "Weight", "SumUp," +
+                    "Min Altitude", "Max Altitude", "Avg Power", "Max Power", "Avg Cadence", "Max Cadence", "Avg Heart Rate", "Max Heart Rate" };
             float fPom;
             CultureInfo cult = new CultureInfo("en-US");
             DataTable dtPom;
@@ -296,6 +298,14 @@ namespace cz.zk.OREGON
             sMax = txInpMaxspeed.Text;
             sWeight = txInpWeight.Text;
             sSumup = txInpSumup.Text;
+            sMinAltitude = txInpMinAltitude.Text;
+            sMaxAltitude = txInpMaxAltitude.Text;
+            sAvgPower = txInpAvgPower.Text;
+            sMaxPower = txInpMaxPower.Text;
+            sAvgCadence = txInpAvgCadence.Text;
+            sMaxCadence = txInpMaxCadence.Text;
+            sAvgHeartRate = txInpAvgHeartrate.Text;
+            sMaxHeartRate = txInpMaxHeartrate.Text;
             nErr = 0;
 
             try
@@ -311,6 +321,22 @@ namespace cz.zk.OREGON
                 fPom = float.Parse(sWeight, cult);
                 nErr++;
                 fPom = float.Parse(sSumup, cult);
+                nErr++;
+                fPom = float.Parse(sMinAltitude, cult);
+                nErr++;
+                fPom = float.Parse(sMaxAltitude, cult);
+                nErr++;
+                fPom = float.Parse(sAvgPower, cult);
+                nErr++;
+                fPom = float.Parse(sMaxPower, cult);
+                nErr++;
+                fPom = float.Parse(sAvgCadence, cult);
+                nErr++;
+                fPom = float.Parse(sMaxCadence, cult);
+                nErr++;
+                fPom = float.Parse(sAvgHeartRate, cult);
+                nErr++;
+                fPom = float.Parse(sMaxHeartRate, cult);
                 nErr++;
             }
             catch (Exception ex)
@@ -333,11 +359,12 @@ namespace cz.zk.OREGON
 
             nTyp = GetTypIdByName(cbTypesInput.SelectedItem.ToString());
 
-            sCmd = "INSERT into ITEMS (DATUM, TYP, DURATION, DISTANCE, AVG_SPEED, MAX_SPEED, DESCR, WEIGHT, SUMUP) ";
+            sCmd = "INSERT into ITEMS (DATUM, TYP, DURATION, DISTANCE, AVG_SPEED, MAX_SPEED, DESCR, WEIGHT, SUMUP, MIN_ALTITUDE, MAX_ALTITUDE, AVG_POWER, MAX_POWER, AVG_CADENCE, MAX_CADENCE, AVG_HEARTRATE, MAX_HEARTRATE) ";
             sCmd += " VALUES ( ";
-            sCmd += string.Format("'{0:s}', {1}, {2}, {3}, {4}, {5}, '{6}', {7}, {8})",
+            sCmd += string.Format("'{0:s}', {1}, {2}, {3}, {4}, {5}, '{6}', {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16})",
                                   dtpInpDate.Value, nTyp, txInpDuration.Text, txInpDistance.Text,
-                                  txInpAvgspeed.Text, txInpMaxspeed.Text, txInpDescription.Text, txInpWeight.Text, txInpSumup.Text);
+                                  txInpAvgspeed.Text, txInpMaxspeed.Text, txInpDescription.Text, txInpWeight.Text, txInpSumup.Text,
+                                  sMinAltitude, sMaxAltitude, sAvgPower, sMaxPower, sAvgCadence, sMaxCadence, sAvgHeartRate, sMaxHeartRate);
 
 
             lbLogger.Items.Add(sCmd);
