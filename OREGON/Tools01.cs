@@ -13,7 +13,6 @@ namespace cz.zk.OREGON
 {
     public partial class Form1 : Form
     {
-
         /// <summary>
         /// 
         /// </summary>
@@ -41,9 +40,6 @@ namespace cz.zk.OREGON
             // switch TYPE to the last item, which should be "WALKING"
             cbTypesInput.SelectedIndex = cbTypesInput.Items.Count - 1;
         }
-
-
-
         /// <summary>
         /// 
         /// </summary>
@@ -63,7 +59,6 @@ namespace cz.zk.OREGON
             }
             return (dur);
         }
-
         /// <summary>
         /// 
         /// </summary>
@@ -83,7 +78,6 @@ namespace cz.zk.OREGON
             }
             return (len);
         }
-
         /// <summary>
         /// 
         /// </summary>
@@ -94,8 +88,6 @@ namespace cz.zk.OREGON
             RouteSections.Add(id);
             UpdateSectionList();
         }
-
-
         /// <summary>
         /// 
         /// </summary>
@@ -105,7 +97,6 @@ namespace cz.zk.OREGON
             RouteSections.RemoveAt(lbSection.SelectedIndex);
             UpdateSectionList();
         }
-
         /// <summary>
         /// 
         /// </summary>
@@ -123,11 +114,8 @@ namespace cz.zk.OREGON
                     break;
                 }
             }
-
             return (id);
-
         }
-
         /// <summary>
         /// 
         /// </summary>
@@ -146,11 +134,11 @@ namespace cz.zk.OREGON
                     break;
                 }
             }
-
             return (sPom);
         }
-
-
+        /// <summary>
+        /// 
+        /// </summary>
         private void UpdateSectionDefList()
         {
             dtSections = SP.ReadData("SELECT * from SECTIONS order by NAME", nLogujSql);
@@ -163,8 +151,6 @@ namespace cz.zk.OREGON
 
             dgvTest001.DataSource = dtSections;
             dgvTest001.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-
         }
-
     }
 }
