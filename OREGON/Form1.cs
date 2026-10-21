@@ -245,7 +245,7 @@ namespace cz.zk.OREGON
                 dgvDetailed.Columns[5].Width = 40;  // MAX
                 dgvDetailed.Columns[6].Width = 350; // Trasa
                 dgvDetailed.Columns[7].Width = 55;  // vaha
-                dgvDetailed.Columns[8].Width = 60;  // SUM UP
+                dgvDetailed.Columns[8].Width = 65;  // SUM UP
                 dgvDetailed.Columns[9].Width = 80;  // Min ALT
                 dgvDetailed.Columns[10].Width = 80;  // Max ALT
                 dgvDetailed.Columns[11].Width = 80;  // AVG Pwr
