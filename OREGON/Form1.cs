@@ -189,9 +189,11 @@ namespace cz.zk.OREGON
             String sCmd;
             int nPom = 0;
 
-            sCmd = "SELECT CONVERT(varchar,DATUM,104) as DATE, DATEPART(WEEK, DATUM) as CW, DURATION as LEN, DISTANCE as KM, AVG_SPEED as AVG,"; 
+            sCmd = "SELECT CONVERT(varchar,DATUM,104) as DATE, DATEPART(WEEK, DATUM) as CW, DURATION as DUR, DISTANCE as KM, AVG_SPEED as AVG,"; 
             sCmd += "MAX_SPEED as MAX, [ITEMS].[DESCR]as TRASA, WEIGHT as VAHA, ";
-            sCmd += "SUMUP, [TYPES].[DESCR] as TYP from ITEMS inner join TYPES ON (ITEMS.TYP = TYPES.ID)";
+            sCmd += "SUMUP, MIN_ALTITUDE as 'Min.ALT', MAX_ALTITUDE as 'Max.ALT', AVG_POWER as 'AVG.Pwr', MAX_POWER as 'MAX.Pwr', ";
+            sCmd += "AVG_CADENCE as 'AVG.Cad', MAX_CADENCE as 'MAX.Cad', AVG_HEARTRATE as 'AVG.HR', MAX_HEARTRATE as 'MAX.HR', ";
+            sCmd += "[TYPES].[DESCR] as TYP from ITEMS inner join TYPES ON (ITEMS.TYP = TYPES.ID)";
 
             if (chkYersDetai.Checked == true)
             {
@@ -235,15 +237,23 @@ namespace cz.zk.OREGON
 
             if (SetWidth)
             {
-                dgvDetailed.Columns[0].Width = 85;
-                dgvDetailed.Columns[1].Width = 40;
-                dgvDetailed.Columns[2].Width = 40;
-                dgvDetailed.Columns[3].Width = 40;
-                dgvDetailed.Columns[4].Width = 40;
-                dgvDetailed.Columns[5].Width = 40;
-                dgvDetailed.Columns[6].Width = 350;
-                dgvDetailed.Columns[7].Width = 55;
-                dgvDetailed.Columns[8].Width = 70;
+                dgvDetailed.Columns[0].Width = 85;  // date
+                dgvDetailed.Columns[1].Width = 40;  // CW
+                dgvDetailed.Columns[2].Width = 50;  // Duration
+                dgvDetailed.Columns[3].Width = 40;  // KM
+                dgvDetailed.Columns[4].Width = 40;  // AVG
+                dgvDetailed.Columns[5].Width = 40;  // MAX
+                dgvDetailed.Columns[6].Width = 350; // Trasa
+                dgvDetailed.Columns[7].Width = 55;  // vaha
+                dgvDetailed.Columns[8].Width = 60;  // SUM UP
+                dgvDetailed.Columns[9].Width = 80;  // Min ALT
+                dgvDetailed.Columns[10].Width = 80;  // Max ALT
+                dgvDetailed.Columns[11].Width = 80;  // AVG Pwr
+                dgvDetailed.Columns[12].Width = 80;  // Max Pwr
+                dgvDetailed.Columns[13].Width = 80;  // AVG Cadence
+                dgvDetailed.Columns[14].Width = 80;  // Max Cadence
+                dgvDetailed.Columns[15].Width = 80;  // AVG HR
+                dgvDetailed.Columns[16].Width = 80;  // Max HR
             }
 
         }
