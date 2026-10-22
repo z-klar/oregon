@@ -320,33 +320,33 @@ namespace cz.zk.OREGON
 
             try
             {
-                fPom = float.Parse(sDuration, cult);
+                fPom = float.Parse(sDuration, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sDistance, cult);
+                fPom = float.Parse(sDistance, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sAvg, cult);
+                fPom = float.Parse(sAvg, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sMax, cult);
+                fPom = float.Parse(sMax, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sWeight, cult);
+                fPom = float.Parse(sWeight, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sSumup, cult);
+                fPom = float.Parse(sSumup, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sMinAltitude, cult);
+                fPom = float.Parse(sMinAltitude, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sMaxAltitude, cult);
+                fPom = float.Parse(sMaxAltitude, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sAvgPower, cult);
+                fPom = float.Parse(sAvgPower, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sMaxPower, cult);
+                fPom = float.Parse(sMaxPower, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sAvgCadence, cult);
+                fPom = float.Parse(sAvgCadence, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sMaxCadence, cult);
+                fPom = float.Parse(sMaxCadence, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sAvgHeartRate, cult);
+                fPom = float.Parse(sAvgHeartRate, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
-                fPom = float.Parse(sMaxHeartRate, cult);
+                fPom = float.Parse(sMaxHeartRate, NumberStyles.AllowDecimalPoint, cult);
                 nErr++;
             }
             catch (Exception ex)

@@ -648,7 +648,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1068, 621);
+            this.tabPage4.Size = new System.Drawing.Size(1355, 621);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Detailed Charts";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -661,7 +661,7 @@
             this.tabControl2.Location = new System.Drawing.Point(3, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1062, 615);
+            this.tabControl2.Size = new System.Drawing.Size(1349, 615);
             this.tabControl2.TabIndex = 0;
             // 
             // tabPage8
@@ -670,7 +670,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1054, 589);
+            this.tabPage8.Size = new System.Drawing.Size(1341, 589);
             this.tabPage8.TabIndex = 0;
             this.tabPage8.Text = "Monthly";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -695,7 +695,7 @@
             // splitContainer5.Panel2
             // 
             this.splitContainer5.Panel2.Controls.Add(this.chartMonOvw);
-            this.splitContainer5.Size = new System.Drawing.Size(1048, 583);
+            this.splitContainer5.Size = new System.Drawing.Size(1335, 583);
             this.splitContainer5.SplitterDistance = 162;
             this.splitContainer5.TabIndex = 0;
             // 
@@ -805,7 +805,7 @@
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.chartMonOvw.Series.Add(series2);
-            this.chartMonOvw.Size = new System.Drawing.Size(878, 579);
+            this.chartMonOvw.Size = new System.Drawing.Size(1165, 579);
             this.chartMonOvw.TabIndex = 0;
             this.chartMonOvw.Text = "chart1";
             // 
@@ -960,7 +960,7 @@
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1068, 621);
+            this.tabPage10.Size = new System.Drawing.Size(1355, 621);
             this.tabPage10.TabIndex = 7;
             this.tabPage10.Text = "Overview Tables";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -983,7 +983,7 @@
             // splitContainer7.Panel2
             // 
             this.splitContainer7.Panel2.Controls.Add(this.dgvOvwTables);
-            this.splitContainer7.Size = new System.Drawing.Size(1062, 615);
+            this.splitContainer7.Size = new System.Drawing.Size(1349, 615);
             this.splitContainer7.SplitterDistance = 63;
             this.splitContainer7.TabIndex = 0;
             // 
@@ -1084,7 +1084,7 @@
             this.dgvOvwTables.Location = new System.Drawing.Point(0, 0);
             this.dgvOvwTables.Name = "dgvOvwTables";
             this.dgvOvwTables.RowHeadersWidth = 9;
-            this.dgvOvwTables.Size = new System.Drawing.Size(1058, 544);
+            this.dgvOvwTables.Size = new System.Drawing.Size(1345, 544);
             this.dgvOvwTables.TabIndex = 0;
             // 
             // tabPage5
@@ -1093,7 +1093,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1068, 621);
+            this.tabPage5.Size = new System.Drawing.Size(1355, 621);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Log";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1115,7 +1115,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.lbLogger);
-            this.splitContainer1.Size = new System.Drawing.Size(1062, 615);
+            this.splitContainer1.Size = new System.Drawing.Size(1349, 615);
             this.splitContainer1.SplitterDistance = 34;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -1153,7 +1153,7 @@
             this.lbLogger.ItemHeight = 16;
             this.lbLogger.Location = new System.Drawing.Point(0, 0);
             this.lbLogger.Name = "lbLogger";
-            this.lbLogger.Size = new System.Drawing.Size(1058, 573);
+            this.lbLogger.Size = new System.Drawing.Size(1345, 573);
             this.lbLogger.TabIndex = 0;
             this.lbLogger.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.lbLogDrawItem);
             // 
@@ -1209,7 +1209,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1068, 621);
+            this.tabPage3.Size = new System.Drawing.Size(1355, 621);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Insert Data";
             this.tabPage3.Enter += new System.EventHandler(this.tabInsertDataEntered);
@@ -1826,7 +1826,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1068, 621);
+            this.tabPage6.Size = new System.Drawing.Size(1355, 621);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Configuration";
             // 
@@ -1943,7 +1943,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1068, 621);
+            this.tabPage7.Size = new System.Drawing.Size(1355, 621);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Sections";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1966,7 +1966,7 @@
             // splitContainer8.Panel2
             // 
             this.splitContainer8.Panel2.Controls.Add(this.dgvTest001);
-            this.splitContainer8.Size = new System.Drawing.Size(1062, 615);
+            this.splitContainer8.Size = new System.Drawing.Size(1349, 615);
             this.splitContainer8.SplitterDistance = 37;
             this.splitContainer8.TabIndex = 1;
             // 
@@ -2020,7 +2020,7 @@
             this.dgvTest001.Location = new System.Drawing.Point(0, 0);
             this.dgvTest001.Name = "dgvTest001";
             this.dgvTest001.RowHeadersWidth = 11;
-            this.dgvTest001.Size = new System.Drawing.Size(1058, 570);
+            this.dgvTest001.Size = new System.Drawing.Size(1345, 570);
             this.dgvTest001.TabIndex = 0;
             // 
             // timer1
